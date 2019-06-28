@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>天猫tianmall--理想生活上天猫</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<script src="js/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="css/login.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.min.css"/>
+		<link rel="stylesheet" type="text/css" href="font/demo.css"/>
+		<link rel="stylesheet" type="text/css" href="font/iconfont.css"/>
+		
+		<script src="js/jquery.cookie.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/index.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<!--头部导航-->
+		<div class="in_headerbg">
+		<div class="index_he">
+			<ul class="in_ul01">
+				<li><a href="index.html">喵，欢迎来天猫</a></li>
+				<li><a href="login.html">请登录</a></li>
+				<li><a href="regist.html">免费注册</a></li>
+			</ul>
+			<ul class="in_ul02">
+				<li>
+					<a href="">我的淘宝<em></em></a>
+					
+					<div><a href="">已买到的宝贝</a></div>
+					<div><a href="">已卖出的宝贝</a></div>
+				</li>
+				<li>
+					<a href="">
+					<span class="icon iconfont">
+						&#xe616;
+					</span>
+					
+						购物车<span class="cartnum">0</span>件
+					</a>
+				</li>
+				<li>
+					<a href="">收藏夹<em></em></a>
+					
+					<div><a href="">收藏的宝贝</a></div>
+					<div><a href="">收藏的店铺</a></div>
+				</li>
+				<li>
+					<a href="">
+						<span class="icon iconfont">
+							&#xe648;
+						</span>
+					手机版
+					</a>
+				</li>
+				<li><a href="">淘宝网</a></li>
+				<li>
+					<a href="" class="sjzc">商家支持<em></em></a>
+					<ul>
+						<li>
+							<h1>商家:</h1>
+							<a href="">商家中心</a>
+							<a href="">商家中心</a>
+							<a href="">商家中心</a>
+							<a href="">商家中心</a>
+							<a href="">商家中心</a>
+							<a href="">商家中心</a>
+							<a href="">商家中心</a>
+							<a href="">商家中心</a>
+						</li>
+						<li>
+							<h1>帮助:</h1>
+							<a href="">商家中心</a>
+							<a href="">商家中心</a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					
+					<a href=""><span class="icon iconfont">
+						&#xe643;
+					</span>网站导航
+					<em></em></a>
+					<div class="daoh">
+					<div class="daoh01">
+						<h2>热点推荐Hot</h2>
+						<ul>
+							<li><a href="">天猫超市</a><i></i></li>
+							<li><a href="">天猫超市</a></li>
+							<li><a href="">天猫超市</a></li>
+							<li><a href="">天猫超市</a><b></b></li>
+							<li><a href="">天猫超市</a></li>
+							<li><a href="">天猫超市</a></li>
+							<li><a href="">天猫超市</a><i></i></li>
+							<li><a href="">天猫超市</a></li>
+							<li><a href="">天猫超市</a><i></i></li>
+							<li><a href="">天猫超市</a><b></b></li>
+							<li><a href="">天猫超市</a></li>
+							<li><a href="">天猫超市</a></li>
+							<li><a href="">天猫超市</a><i></i></li>
+							<li><a href="">天猫超市</a></li>
+							<li><a href="">天猫超市</a></li>
+						</ul>
+					</div>
+					<div class="daoh02">
+						<h2>行业市场Market</h2>
+						<ul>
+							<li><a href="">男装</a></li>
+							<li><a href="">男装</a></li>
+							<li><a href="">男装</a></li>
+							<li><a href="">男装</a></li>
+							<li><a href="">男装</a><i></i></li>
+							<li><a href="">男装</a></li>
+							<li><a href="">男装</a><b></b></li>
+							<li><a href="">男装</a><i></i></li>
+							<li><a href="">男装</a></li>
+							<li><a href="">男装</a><b></b></li>
+							<li><a href="">男装</a></li>
+							<li><a href="">男装</a><i></i></li>
+							<li><a href="">男装</a></li>
+							<li><a href="">男装</a></li>
+							<li><a href="">男装</a></li>
+						</ul>
+					</div>
+					<div class="daoh03">
+						<h2>服务指南Help</h2>
+						<ul>
+						<li><a href="">帮助中心</a></li>
+						<li><a href="">帮助中心</a></li>
+						<li><a href="">帮助中心</a></li>
+						<li><a href="">帮助中心</a></li>
+						</ul>
+						
+					</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+		</div>
+		<!--右侧导航-->
+		<div class="slid_rig">
+			<ul>
+				<li><a href="">
+					<span class="icon iconfont">
+						&#xe701;
+
+					</span>
+				</a></li>
+				<li class="slid_cart">
+					<a href="">
+						<span class="icon iconfont">
+							&#xe616;
+						</span>
+						购物车
+						<span class="cartnum"></span>
+					</a>
+					
+				</li>
+				<li><a href=""><span class="icon iconfont">
+					&#xe641;
+				</span></a></li>
+				<li><a href=""><span class="icon iconfont">
+					&#xe633;
+				</span></a></li>
+				<li><a href=""><span class="icon iconfont">
+					&#xe817;
+				</span></a></li>
+				<li><a href="">
+					<span class="icon iconfont">
+						&#xe607;
+					</span>
+				</a></li>			
+			</ul>
+			<ul>
+				<li><a href=""><span class="icon iconfont">
+					&#xe682;
+				</span></a></li>
+				<li><span class="icon iconfont">
+					&#xe7dd;
+				</span></li>
+				<li class="backtop">
+					<span class="icon iconfont">
+					&#xe6b6;
+					</span>
+					
+				</li>
+			</ul>
+		</div>
+		
+		<!--搜索框-->
+		<div class="search">
+			
+			<div class="se_logo">
+				<img src="img/se_logo.png" />
+			</div>
+			
+			<div class="se_text">
+				
+				<div class="se_btn">
+					<div>
+						<input type="text" placeholder="搜索  天猫  商品/品牌/店铺"/>
+						<input type="button"  value="搜索"/>
+					</div>
+				</div>
+				
+				<div class="se_list01">
+					<ul>
+						<li><a href="">针织衫</a></li>
+						<li><a href="">连衣裙</a></li>
+						<li><a href="">四件套</a></li>
+						<li><a href="">摄像头</a></li>
+						<li><a href="">客厅灯</a></li>
+						<li><a href="">口红</a></li>
+						<li><a href="">手机</a></li>
+						<li><a href="">运动鞋</a></li>
+						<li><a href="">牛奶</a></li>
+					</ul>
+				</div>
+				
+				<div class="se_list02">
+					<ul>
+						<li><a href=""><img src="img/tmcs.png"></a></li>
+						<li><a href=""><img src="img/tmgj.png"></a></li>
+						<li><a href="">天猫会员</a></li>
+						<li><a href="">电器城</a></li>
+						<li><a href="">喵生鲜</a></li>
+						<li><a href="">医药馆</a></li>
+						<li><a href="">营业厅</a></li>
+						<li><a href="">魅力惠</a></li>
+						<li><a href="">飞猪旅行</a></li>
+						<li><a href="">苏宁易购</a></li>
+					</ul>
+				</div>
+				
+			</div>
+			
+		</div>
+		<!--banner轮播-->
+		<div class="banner">
+			<div class="lunbo">
+				<div class="lunbo_pic">
+					<ul>
+						<li><a href=""><img src="img/ban01.jpg"></a></li>
+						<li><a href=""><img src="img/ban02.jpg"></a></li>
+						<li><a href=""><img src="img/ban03.jpg"></a></li>
+						<li><a href=""><img src="img/ban04.png"></a></li>
+						<li><a href=""><img src="img/ban05.png"></a></li>
+						<li><a href=""><img src="img/ban06.png"></a></li>
+					</ul>
+				</div>
+				<div class="lunbo_biao">
+					<ul>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+					</ul>
+				</div>
+			</div>
+			<div class="fenlei_list">
+				<p><span class="icon iconfont">&#xe643;</span>商品分类</p>
+				
+				<ul class="fl_nav_li">
+					<li><span class="icon iconfont">&#xe6a6;
+</span><a href=""></a></li>
+					<li><span class="icon iconfont">&#xe738;
+</span><a href=""></a></li>
+					<li><span class="icon iconfont">&#xe682;
+</span><a href=""></a></li>
+					<li><span class="icon iconfont">&#xe626;
+</span><a href=""></a></li>
+				</ul>
+				
+			</div>
+			<div class="sec_fenlei">
+				<ul>
+					
+				</ul>
+				<div>
+					
+				</div>
+			</div>
+		</div>
+		
+		
+		<!--滚动搜索框-->
+		<div class="scro_sea">
+			<div class="sc_sea_logo">
+				<img src="img/sc_sea_logo.png"/>
+			</div>
+			<div class="sc_sea_btn">
+				<div>
+					<input type="text"  placeholder="搜索 天猫 商品/品牌/店铺"/>
+				    <input type="button" value="搜索"/>
+				</div>
+				
+			</div>
+		</div>
+		<!--品牌闪购部分-->
+		<div class="ppsg">
+			<div>
+				<p><span>品牌闪购BRAND SALE</span><a href="">更多<i class="icon iconfont">&#xe6d8;</i></a></p>
+				<p><a href=""><img src="img/ppsg.png"></a></p>
+			</div>
+			<div>
+				<p><span>品牌闪购BRAND SALE</span><a href="">更多<i class="icon iconfont">&#xe6d8;</i></a></p>
+				<p><a href=""><img src="img/ppsg.png"></a></p>
+			</div>
+			<div>
+				<p><span>品牌闪购BRAND SALE</span><a href="">更多<i class="icon iconfont">&#xe6d8;</i></a></p>
+				<p><a href=""><img src="img/ppsg.png"></a></p>
+			</div>
+		</div>
+		<!--广告部分-->
+		<div class="adv_list" >
+			<ul>
+				<li>
+					<a href=""><img src="img/advpic.png"></a>
+					<div>
+						<p>Nestl/雀巢<input type="button"  value="点击进入" /></p>
+						
+					</div>
+				</li>
+				<li>
+					<a href=""><img src="img/advpic.png"></a>
+					<div>
+						<p>Nestl/雀巢<input type="button"  value="点击进入" /></p>
+						
+					</div>
+				</li>
+				<li>
+					<a href=""><img src="img/advpic.png"></a>
+					<div>
+						<p>Nestl/雀巢<input type="button"  value="点击进入" /></p>
+						
+					</div>
+				</li>
+				<li>
+					<a href=""><img src="img/advpic.png"></a>
+					<div>
+						<p>Nestl/雀巢<input type="button"  value="点击进入" /></p>
+						
+					</div>
+				</li>
+				<li>
+					<a href=""><img src="img/advpic.png"></a>
+					<div>
+						<p>Nestl/雀巢<input type="button"  value="点击进入" /></p>
+						
+					</div>
+				</li>
+				<li>
+					<a href=""><img src="img/advpic.png"></a>
+					<div>
+						<p>Nestl/雀巢<input type="button"  value="点击进入" /></p>
+						
+					</div>
+				</li>
+				<li>
+					<a href=""><img src="img/advpic.png"></a>
+					<div>
+						<p>Nestl/雀巢<input type="button"  value="点击进入" /></p>
+						
+					</div>
+				</li>
+				<li>
+					<a href=""><img src="img/advpic.png"></a>
+					<div>
+						<p>Nestl/雀巢<input type="button"  value="点击进入" /></p>
+						
+					</div>
+				</li>
+				<li>
+					<a href=""><img src="img/advpic.png"></a>
+					<div>
+						<p>Nestl/雀巢<input type="button"  value="点击进入" /></p>
+						
+					</div>
+				</li>
+				<li>
+					<a href=""><img src="img/advpic.png"></a>
+					<div>
+						<p>Nestl/雀巢<input type="button"  value="点击进入" /></p>
+						
+					</div>
+				</li>
+				<li>
+					<a href=""><img src="img/advpic.png"></a>
+					<div>
+						<p>Nestl/雀巢<input type="button"  value="点击进入" /></p>
+						
+					</div>
+				</li>
+				<li>
+					<a href=""><img src="img/advpic.png"></a>
+					<div>
+						<p>Nestl/雀巢<input type="button"  value="点击进入" /></p>
+						
+					</div>
+				</li>
+				<li>
+					<a href=""><img src="img/advpic.png"></a>
+					<div>
+						<p>Nestl/雀巢<input type="button"  value="点击进入" /></p>
+						
+					</div>
+				</li>
+				<li>
+					<a href=""><img src="img/advpic.png"></a>
+					<div>
+						<p>Nestl/雀巢<input type="button"  value="点击进入" /></p>
+						
+					</div>
+				</li>
+				<li>
+					<a href=""><img src="img/advpic.png"></a>
+					<div>
+						<p>Nestl/雀巢<input type="button"  value="点击进入" /></p>
+						
+					</div>
+				</li>
+				<li>
+					<a href=""><img src="img/advpic.png"></a>
+					<div>
+						<p>Nestl/雀巢<input type="button"  value="点击进入" /></p>
+						
+					</div>
+				</li>
+				<li>
+					<a href=""><img src="img/advpic.png"></a>
+					<div>
+						<p>Nestl/雀巢<input type="button"  value="点击进入" /></p>
+						
+					</div>
+				</li>
+				<li>
+					<a href=""><img src="img/advpic.png"></a>
+					<div>
+						<p>Nestl/雀巢<input type="button"  value="点击进入" /></p>
+						
+					</div>
+				</li>
+				<li>
+					<a href=""><img src="img/advpic.png"></a>
+					<div>
+						<p>Nestl/雀巢<input type="button"  value="点击进入" /></p>
+						
+					</div>
+				</li>
+				<li>
+					<a href=""><img src="img/advpic.png"></a>
+					<div>
+						<p>Nestl/雀巢<input type="button"  value="点击进入" /></p>
+						
+					</div>
+				</li>
+				<li>
+					<a href=""><img src="img/advpic.png"></a>
+					<div>
+						<p>Nestl/雀巢<input type="button"  value="点击进入" /></p>
+						
+					</div>
+				</li>
+				<li>
+					<a href=""><img src="img/advpic.png"></a>
+					<div>
+						<p>Nestl/雀巢<input type="button"  value="点击进入" /></p>
+						
+					</div>
+				</li>
+				<li>
+					<a href=""><img src="img/advpic.png"></a>
+					<div>
+						<p>Nestl/雀巢<input type="button"  value="点击进入" /></p>
+						
+					</div>
+				</li>
+				<li>
+					<a href=""><img src="img/advpic.png"></a>
+					<div>
+						<p>Nestl/雀巢<input type="button"  value="点击进入" /></p>
+						
+					</div>
+				</li>
+				<li>
+					<a href=""><img src="img/advpic.png"></a>
+					<div>
+						<p>Nestl/雀巢<input type="button"  value="点击进入" /></p>
+						
+					</div>
+				</li>
+				<li>
+					<a href=""><img src="img/advpic.png"></a>
+					<div>
+						<p>Nestl/雀巢<input type="button"  value="点击进入" /></p>
+						
+					</div>
+				</li>
+				<li>
+					<a href=""><img src="img/advpic.png"></a>
+					<div>
+						<p>Nestl/雀巢<input type="button"  value="点击进入" /></p>
+						
+					</div>
+				</li>
+				<li>
+					<a href=""><img src="img/advpic.png"></a>
+					<div>
+						<p>Nestl/雀巢<input type="button"  value="点击进入" /></p>
+						
+					</div>
+				</li>
+					<li>
+					<a href=""><img src="img/advpic.png"></a>
+					<div>
+						<p>Nestl/雀巢<input type="button"  value="点击进入" /></p>
+						
+					</div>
+				</li>
+				<li class="huanyihuan">
+					<span class="icon iconfont">&#xe809;</span>
+					<span>换一换</span>
+				</li>
+			</ul>
+			
+		</div>
+		<!--产品展示-->
+		
+		<div class="pro_list">
+			<div class="pro_top">
+				<p><img src="img/tmcs02.png"/></p>
+				<ul>
+					<li><a href="goodslist.html">进口食品</a></li>
+					<li><a href="goodslist.html">进口食品</a></li>
+					<li><a href="goodslist.html">进口食品</a></li>
+					<li><a href="goodslist.html">进口食品</a></li>
+					<li><a href="">进口食品</a></li>
+					<li><a href="">进口食品</a></li>
+					<li><a href="">进口食品</a></li>
+					<li><a href="">进口食品</a></li>
+				</ul>
+			</div>
+			
+			<div class="pro_left">
+				<img src="img/jianguo.jpg" />
+			</div>
+			
+			<div class="pro_right">
+				<div class="ri_01">
+					<div class="ri_01_le">
+						<div class="jr_lf">
+							<ul>
+								<li>今日疯抢</li>
+								<li>量贩装</li>
+							</ul>
+							<div class="jrfq">
+								<img src="img/lfz.jpg"/>
+							</div>
+							<div class="lfz">
+								<img src="img/jrfq.jpg"/>
+							</div>
+						</div>
+					</div>
+					<div class="ri_01_ri">
+						<ul>
+							 
+							 
+							 
+							 
+						</ul>
+					</div>
+				</div>
+				
+				
+				
+				<div class="ri_02">
+					<ul>
+						<!--<li class="goods">
+								<a href="">
+									<img src="img/bl_lo.png"/>
+									<p>三只松鼠 每日坚果三只松鼠 每日坚果</p>
+									<p><b>&yen;</b><span>139</span></p>
+								</a>
+							</li>
+							<li class="goods">
+								<img src="img/bl_lo.png"/>
+								<p>三只松鼠 每日坚果三只松鼠 每日坚果</p>
+								<p><b>&yen;</b><span>139</span></p>
+							</li>
+							<li class="goods">
+								<img src="img/bl_lo.png"/>
+								<p>三只松鼠 每日坚果三只松鼠 每日坚果</p>
+								<p><b>&yen;</b><span>139</span></p>
+							</li>
+							<li class="goods">
+								<img src="img/bl_lo.png"/>
+								<p>三只松鼠 每日坚果三只松鼠 每日坚果</p>
+								<p><b>&yen;</b><span>139</span></p>
+							</li>-->
+					</ul>
+				</div>
+			</div>
+			
+		</div>
+		
+		<!--猜你喜欢-->
+		<div class="guss_yl">
+			<img src="img/guss_yl.png" />
+		</div>
+		<div class="guss_list">
+			<ul>
+				
+			</ul>
+		</div>
+		<div class="guss_end">
+			<img src="img/end.png">
+		</div>
+		
+		<div class="bott01">
+			<div class="b1_four">
+				<ul>
+					<li><a href=""><img src="img/you.png"/></a></li>
+					<li><a href=""><img src="img/you.png"/></a></li>
+					<li><a href=""><img src="img/you.png"/></a></li>
+					<li><a href=""><img src="img/you.png"/></a></li>
+				</ul>
+			</div>
+			<div class="b1_list">
+				<div>
+					<p>购物指南</p>
+					<ul>
+						<li><a href="">免费注册</a></li>
+						<li><a href="">免费注册</a></li>
+						<li><a href="">免费注册</a></li>
+					</ul>
+				</div>
+				<div>
+					<p>购物指南</p>
+					<ul>
+						<li><a href="">免费注册</a></li>
+						<li><a href="">免费注册</a></li>
+						<li><a href="">免费注册</a></li>
+					</ul>
+				</div>
+				<div>
+					<p>购物指南</p>
+					<ul>
+						<li><a href="">免费注册</a></li>
+						<li><a href="">免费注册</a></li>
+						<li><a href="">免费注册</a></li>
+					</ul>
+				</div>
+				<div>
+					<p>购物指南</p>
+					<ul>
+						<li><a href="">免费注册</a></li>
+						<li><a href="">免费注册</a></li>
+						<li><a href="">免费注册</a></li>
+					</ul>
+				</div>
+				<div>
+					<p>购物指南</p>
+					<ul>
+						<li><a href="">免费注册</a></li>
+						<li><a href="">免费注册</a></li>
+						<li><a href="">免费注册</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+		
+		
+		
+		<div class="bott02">
+				<div class="footer">
+				<ul>
+				<li>
+					<a href="">关于天猫</a>
+					<a href="">帮助中心</a>
+					<a href="">开放平台</a>
+					<a href="">诚聘英才</a>
+					<a href="">联系我们</a>
+					<a href="">网站合作</a>
+					<a href="">法律声明</a>
+					<a href="">隐私权政策</a>
+					<a href="">知识产权</a>
+					<a href="">廉政举报</a>
+				</li>
+				<li>
+					<a href="">阿里巴巴集团</a>
+					<a href="">淘宝网</a>
+					<a href="">天猫</a>
+					<a href="">聚划算</a>
+					<a href="">全球速卖通</a>
+					<a href="">阿里巴巴国际交易市场</a>
+					<a href="">1688</a>
+					<a href="">阿里妈妈</a>
+					<a href="">飞猪</a>
+					<a href="">阿里云计算</a>
+					<a href="">Alios</a>
+					<a href="">阿里通信</a>
+					<a href="">万网</a>
+					<a href="">高德</a>
+					<a href="">UC</a>
+					<a href="">友盟</a>
+					<a href="">虾米</a>
+					<a href="">钉钉</a>
+					<a href="">支付宝</a>
+				</li>
+				</ul>
+			<p>
+				<span>增值电信业务经营许可证： <a href="">浙B2-20110446</a></span>
+				<span>市场名称登记证：工商网市字3301004119号</span>
+				<span>出版物网络交易平台服务经营备案证： 新出发浙备字第001号 </span>
+			</p>
+			<p>
+				<span>互联网违法和不良信息举报电话：0571-81683755 blxxjb@alibaba-inc.com</span>
+				<span>互联网药品信息服务资质证书编号：<a href="">浙-（经营性）-2017-0005</a></span>
+				<span>浙公网安备 33010002000120号</span>
+			</p>
+			<p>
+				<span>医疗器械网络交易服务第三方平台备案：（浙）网械平台备字[2018]第00002号 </span>
+				<span>互联网药品交易服务资格证书：国A20150001</span></p>
+			<p>
+				<span>
+					浙江省网络食品销售第三方平台提供者备案：浙网食A33010002
+				</span>
+				<span>
+					<a href="">12318举报</a>
+				</span>
+				
+			</p>
+			<p>
+				&copy; 2003-2019 TMALL.COM 版权所有
+			</p>
+			
+		</div>
+		</div>
+	</body>
+</html>
